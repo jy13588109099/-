@@ -1,0 +1,10 @@
+#n以内的质数
+n=100
+pr_nb=[2]
+for i in range(3,n):
+----for io in pr_nb:
+--------if not i%io:
+------------break
+----else:
+--------pr_nb.append(i)
+print(s)
